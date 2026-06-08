@@ -8,9 +8,6 @@ A Python script that monitors a folder for file changes using SHA-256 hashing.
 - On the next run, compares current hashes against that baseline
 - Flags anything that was added, deleted, or modified
 
-## Why it matters
-
-If a file gets tampered with -- whether by malware or anything else -- the hash changes. This script catches that. It is the same idea behind tools like Tripwire that security teams use to monitor critical files in real environments.
 
 ## Usage
 
